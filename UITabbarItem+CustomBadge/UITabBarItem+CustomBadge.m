@@ -160,6 +160,7 @@ static id<UITabbarItemBadgeConfiguration> badgeConfigurationProvider;
             
         }
         
+        [customBadge.superview bringSubviewToFront:customBadge];
         
         //
         //  now check on the value, perform necessary action
